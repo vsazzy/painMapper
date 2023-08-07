@@ -1,0 +1,12 @@
+{
+  "name": "Pain Mapper",
+  "displayName": "Pain Mapper",
+  "expo": {
+    "name": "painmapper",
+    "slug": "painmapper",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
