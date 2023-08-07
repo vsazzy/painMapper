@@ -65,3 +65,7 @@ web-build/
 
 # VS Code Debug
 .vscode/.react/
+# Expo
+.expo
+dist/
+web-build/
