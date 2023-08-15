@@ -1,5 +1,9 @@
 # Pain Mapper
-
+  // "resolutions": {
+  //   "@expo/config-plugins": "^4.1.0",
+  //   "@expo/prebuild-config": "^4.0.0",
+  //   "expo-modules-autolinking": "~0.8.1"
+  //   },
 ## Tech and Dev Tools
 
 - Built with (React Native)[https://reactnative.dev/]

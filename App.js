@@ -31,7 +31,7 @@ function App() {
 
   const toggleRTL = React.useCallback(() => {
     I18nManager.forceRTL(!rtl);
-    Updates.reloadAsync();
+    // Updates.reloadAsync();
   }, [rtl]);
 
   // Memoization is tricky, look up tutorials for this

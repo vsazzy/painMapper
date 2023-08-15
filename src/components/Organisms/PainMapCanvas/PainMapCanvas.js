@@ -706,7 +706,7 @@ function PainMapCanvas(props) {
 
   // Show a spinning loader until the canvas dimensions are calculated
   if (canvasDimensions == null) {
-    return <ActivityIndicator style={styles.loader} size="large" animating color={Colors.green} />;
+    return <ActivityIndicator style={styles.loader} size="large" animating color={colors.primary} />;
   }
 
   return (
