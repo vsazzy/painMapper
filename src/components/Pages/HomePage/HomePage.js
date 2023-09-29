@@ -11,7 +11,9 @@ import {
   painMapScreenName,
 } from 'utils/screenNames';
 
-const norimaLogo = require('assets/images/Norima_Logo.png');
+// const norimaLogo = require('assets/images/Norima_Logo.png'); old logo
+//n ew logo
+const norimaLogo = require('assets/images/painmapperLogo.jpeg'); 
 
 function HomePage({ navigation }) {
   const { colors } = useTheme();

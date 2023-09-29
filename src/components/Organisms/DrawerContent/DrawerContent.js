@@ -16,7 +16,9 @@ import {
 } from 'utils/screenNames';
 import styles from './DrawerContent.style';
 
-const norimaLogo = require('../../../assets/images/norima_logo_icon.png');
+// const norimaLogo = require('../../../assets/images/norima_logo_icon.png'); old logo
+//new logo
+const norimaLogo = require('assets/images/painmapperLogo.jpeg'); 
 
 function DrawerContent(props) {
   const { theme, toggleTheme, rtl, toggleRTL } = React.useContext(PreferencesContext);
@@ -34,7 +36,7 @@ function DrawerContent(props) {
             <Avatar.Image source={norimaLogo} size={50} theme={avatarTheme} />
             <View style={{ paddingLeft: 20 }}>
               <Title style={styles.title}>Pain Mapper</Title>
-              <Caption style={styles.caption}>A Demo Project</Caption>
+              {/* <Caption style={styles.caption}>A Demo Project</Caption> */}
             </View>
           </View>
         </View>
