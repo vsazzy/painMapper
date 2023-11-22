@@ -56,7 +56,7 @@ function PainMap({ navigation }) {
       severity: intensity,
       recurrence,
       canvasInfo: scaledCanvasInfo, // hack to make deep copy
-      imageData: painImageData.slice(0), // hack to copy not references
+      imageData: painImageData.slice(0), // hack to not copy references 
       painColour: paintColor,
     });
     console.log('saving painData', painData.severity, painData.recurrence, painData.painColour);
