@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Pain Mapper",
+    "displayName": "Pain Mapper",
+    "expo": {
+      "name": "painmapper",
+      "slug": "painmapper",
+      "version": "1.0.1",
+      "icon": "./src/assets/images/painmapperLogo.png",
+      "assetBundlePatterns": [
+        "**/*"
+      ],
+      "extra": {
+        "eas": {
+          "projectId": "0b53937a-bd09-4c4c-af68-5df89e99a564"
+        }
+      },
+      "owner": "painmapper"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "63f38feb-6258-446e-802c-e777797b8f2a"
+      }
+    },
+    "android": {
+      "package": "com.painmapper.painmapper"
+    }
+  }
+}

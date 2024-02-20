@@ -27,7 +27,7 @@ function PainMap({ navigation }) {
   const [intensity, setIntensity] = useState(0);
   const [recurrence, setRecurrence] = useState(RECURRENCE.DAILY);
   const [scaledCanvasInfo, setScaledCanvasInfo] = useState(null);
-  const [painImageData, setPainImageData] = useState(null);
+  const [painImageData, setPainImageData] = useState("null");
   const [wipeCanvas, setWipeCanvas] = useState(false);
   const [savePain, setSavePain] = useState(false);
 
@@ -59,7 +59,7 @@ function PainMap({ navigation }) {
       imageData: painImageData.slice(0), // hack to not copy references 
       painColour: paintColor,
     });
-    console.log('saving painData', painData.severity, painData.recurrence, painData.painColour);
+    console.log('saving painData', painData.severity, painData.recurrence, painData.painColour, painData.imageData);
     resultsContext.addPainData(painData);
     setWipeCanvas(true);
   }
